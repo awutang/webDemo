@@ -3,8 +3,7 @@ package com.bjsxt.servlet;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
-
-@WebServlet("/TestServlet")
+// @WebServlet("/TestServlet")
 public class TestServlet extends javax.servlet.http.HttpServlet {
 
     private String message;
