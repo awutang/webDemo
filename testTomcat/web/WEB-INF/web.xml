@@ -22,4 +22,67 @@
         <servlet-name>HW</servlet-name>
         <url-pattern>/HW</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TestLifeCycleServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.TestLifeCycleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestLifeCycleServlet</servlet-name>
+        <url-pattern>/TestLifeCycleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ThreeParams</servlet-name>
+        <servlet-class>com.bjsxt.servlet.ThreeParams</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ThreeParams</servlet-name>
+        <url-pattern>/servlet/ThreeParams</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookies</servlet-name>
+        <servlet-class>com.bjsxt.servlet.SetCookies</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookies</servlet-name>
+        <url-pattern>/SetCookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowCookies</servlet-name>
+        <servlet-class>com.bjsxt.servlet.ShowCookies</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCookies</servlet-name>
+        <url-pattern>/servlet/ShowCookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionInfoServlet</servlet-name>
+        <servlet-class>com.bjsxt.servlet.SessionInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionInfoServlet</servlet-name>
+        <url-pattern>/servlet/SessionInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowSession</servlet-name>
+        <servlet-class>com.bjsxt.servlet.ShowSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowSession</servlet-name>
+        <url-pattern>/servlet/ShowSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TestServletContext</servlet-name>
+        <servlet-class>com.bjsxt.servlet.TestServletContext</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServletContext</servlet-name>
+        <url-pattern>/servlet/TestServletContext</url-pattern>
+    </servlet-mapping>
 </web-app>
